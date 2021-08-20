@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Frontend Mentor | Intro component with sign up form</title>
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="normalize.css" />
+  <style>
+    @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+  </style>
+</head>
+
+<body>
+  <main class="contenedor-principal">
+    <section class="contenedor-informacion">
+      <h1 class="titulo">Learn to code by watching others</h1>
+      <article class="contenedor-parrafo">
+        <p class="parrafo">
+          See how experienced developers solve problems in real-time. Watching
+          scripted tutorials is great, but understanding how developers think
+          is invaluable.
+        </p>
+      </article>
+    </section>
+    <section class="contenedor-formulario-oferta">
+      <div class="contenedor-oferta">
+        <p class="oferta">
+          Try it free 7 days <span class="span">then $20/mo. thereafter</span>
+        </p>
+      </div>
+      <form class="formulario" action="">
+        <div class="contenedor-nombre">
+          <div class="contenedor-nombre-y-error">
+            <input class="input" type="text" name="nombre" id="nombre" placeholder="First Name" />
+            <img class="error error-nombre" src="images/icon-error.svg" alt="Error" />
+          </div>
+          <div class="contenedor-parrafo-error parrafo-error-nombre">
+            <p class="parrafo-error">First Name cannot be empty</p>
+          </div>
+        </div>
+        <div class="contenedor-apellido">
+          <div class="contenedor-apellido-y-error">
+            <input class="input" type="text" name="apellido" id="apellido" placeholder="Last Name" />
+            <img class="error error-apellido" src="images/icon-error.svg" alt="Error" />
+          </div>
+          <div class="contenedor-parrafo-error parrafo-error-apellido">
+            <p class="parrafo-error">Last Name cannot be empty</p>
+          </div>
+        </div>
+        <div class="contenedor-email">
+          <div class="contenedor-email-y-error">
+            <input class="input" type="text" name="email" id="email" placeholder="Email Address" />
+            <img class="error error-email" src="images/icon-error.svg" alt="Error" />
+          </div>
+          <div class="contenedor-parrafo-error parrafo-error-email">
+            <p class="parrafo-error">Looks like this is not an email</p>
+          </div>
+        </div>
+        <div class="contenedor-clave">
+          <div class="contenedor-clave-y-error">
+            <input class="input ojo" type="password" name="clave" id="clave" placeholder="Password" />
+            <img class="error error-clave" src="images/icon-error.svg" alt="Error" />
+          </div>
+          <div class="contenedor-parrafo-error parrafo-error-clave">
+            <p class="parrafo-error">Password cannot be empty</p>
+          </div>
+        </div>
+        <input class="enviar" type="submit" value="CLAIM YOUR FREE TRIAL" />
+        <div class="contenedor-aviso">
+          <p class="aviso">
+            By clicking the button, you are agreeing to our
+            <span class="terminos">Terms and Services</span>
+          </p>
+        </div>
+      </form>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+
+</html>

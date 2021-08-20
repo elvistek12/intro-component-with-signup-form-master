@@ -1,0 +1,338 @@
+.contenedor-principal {
+  padding: 60px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-image: url(images/bg-intro-mobile.png);
+  background-repeat: repeat;
+  background-size: unset;
+  background-color: hsl(0, 100%, 74%);
+  font-size: 16px;
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  color: #fefefe;
+  line-height: 22.5px;
+}
+
+.contenedor-informacion {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.titulo {
+  margin: unset;
+  padding: 30px 30px 15px;
+  font-size: 26px;
+  font-weight: 600;
+  line-height: 30px;
+}
+
+.contenedor-parrafo {
+  padding: 15px;
+}
+
+.parrafo {
+  font-size: 13px;
+  font-weight: 400;
+}
+
+.contenedor-formulario-oferta {
+  padding: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.contenedor-oferta {
+  width: 100%;
+  padding: 20px;
+  margin: 10px;
+  background-color: hsl(248, 32%, 49%);
+  border-radius: 8px;
+  -webkit-box-shadow: 0 8px 0 hsla(248, 32%, 49%, 30%);
+  box-shadow: 0 8px 0 hsla(248, 32%, 49%, 30%);
+}
+
+.oferta {
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.span {
+  font-weight: 400;
+}
+
+.formulario {
+  padding: 20px 25px;
+  margin: 15px 10px;
+  width: 100%;
+  background-color: #fefefe;
+  border-radius: 8px;
+  text-align: left;
+  -webkit-box-shadow: 0 9px 0 hsl(0, 65%, 65%);
+  box-shadow: 0 9px 0 hsl(0, 65%, 65%);
+}
+
+.contenedor-nombre,
+.contenedor-apellido,
+.contenedor-email,
+.contenedor-clave {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: end;
+  -ms-flex-align: end;
+  align-items: flex-end;
+  width: 100%;
+}
+
+.contenedor-nombre-y-error,
+.contenedor-apellido-y-error,
+.contenedor-email-y-error,
+.contenedor-clave-y-error {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  position: relative;
+  width: 100%;
+}
+
+.input {
+  all: unset;
+  margin: 15px 0 0;
+  padding: 0 20px;
+  height: 45px;
+  width: 100%;
+  border: 1px solid hsla(0, 100%, 74%, 30%);
+  border-radius: 4px;
+  color: hsl(249, 10%, 26%);
+  font-weight: 600;
+  -webkit-transition: 500ms ease all;
+  -o-transition: 500ms ease all;
+  transition: 500ms ease all;
+  font-size: 14px;
+}
+
+input::-webkit-input-placeholder {
+  color: hsla(249, 10%, 26%, 75%);
+  font-weight: 600;
+}
+
+input::-moz-placeholder {
+  color: hsla(249, 10%, 26%, 75%);
+  font-weight: 600;
+}
+
+input:-ms-input-placeholder {
+  color: hsla(249, 10%, 26%, 75%);
+  font-weight: 600;
+}
+
+input::-ms-input-placeholder {
+  color: hsla(249, 10%, 26%, 75%);
+  font-weight: 600;
+}
+
+input::placeholder {
+  color: hsla(249, 10%, 26%, 75%);
+  font-weight: 600;
+}
+
+input:focus {
+  border-color: hsla(249, 10%, 26%, 85%);
+}
+
+.input-error {
+  border-color: hsl(0, 100%, 74%);
+}
+
+.input-error-email::-webkit-input-placeholder {
+  color: hsl(0, 100%, 74%);
+  font-weight: 600;
+}
+
+.input-error-email::-moz-placeholder {
+  color: hsl(0, 100%, 74%);
+  font-weight: 600;
+}
+
+.input-error-email:-ms-input-placeholder {
+  color: hsl(0, 100%, 74%);
+  font-weight: 600;
+}
+
+.input-error-email::-ms-input-placeholder {
+  color: hsl(0, 100%, 74%);
+  font-weight: 600;
+}
+
+.input-error-email::placeholder {
+  color: hsl(0, 100%, 74%);
+  font-weight: 600;
+}
+
+.ojo {
+  padding: 0 45px 0 20px;
+}
+
+.error {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  right: 20px;
+  top: 26px;
+  display: none;
+}
+
+.error-activo {
+  display: block;
+}
+
+.contenedor-parrafo-error {
+  display: none;
+}
+
+.contenedor-parrafo-error-activo {
+  display: block;
+}
+
+.parrafo-error {
+  color: hsl(0, 100%, 74%);
+  font-size: 12px;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.enviar {
+  all: unset;
+  margin: 20px 0 10px;
+  padding: 0 20px;
+  background-color: hsl(154, 59%, 51%);
+  height: 60px;
+  width: 100%;
+  text-align: center;
+  letter-spacing: 1px;
+  font-weight: 500;
+  cursor: pointer;
+  border-radius: 8px;
+  -webkit-box-shadow: 0 6px 0 hsl(154, 57%, 44%);
+  box-shadow: 0 6px 0 hsl(154, 57%, 44%);
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: 500ms ease all;
+  -o-transition: 500ms ease all;
+  transition: 500ms ease all;
+}
+
+.enviar:hover {
+  background-color: hsla(154, 59%, 51%, 80%);
+}
+
+.contenedor-aviso {
+  text-align: center;
+  padding: 10px 0;
+}
+
+.aviso {
+  color: black;
+  font-size: 11px;
+  font-weight: 400;
+  color: hsl(246, 25%, 77%);
+}
+
+.terminos {
+  font-weight: 700;
+  color: hsl(0, 100%, 74%);
+}
+
+@media (min-width: 1024px) {
+  .contenedor-principal {
+    min-height: 100vh;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    padding: unset;
+    background-image: url(images/bg-intro-desktop.png);
+  }
+
+  .contenedor-informacion {
+    width: 60%;
+    max-width: 640px;
+    text-align: left;
+  }
+
+  .titulo {
+    font-size: 56px;
+    line-height: 56px;
+  }
+
+  .contenedor-parrafo {
+    padding: 15px 30px;
+  }
+
+  .parrafo {
+    font-size: 16px;
+  }
+
+  .oferta {
+    font-size: 15px;
+  }
+
+  .input {
+    padding: 0 30px;
+  }
+
+  .ojo {
+    padding: 0 45px 0 30px;
+  }
+}
